@@ -12,8 +12,9 @@ services:
 
 # Checking Docker Version: docker --version
 # Want to check images?  docker images
-# Checking container info: docker ps -a
-# Got a docker file? build the image: docker build -t <ImageName>
-#
-#
-#
+# Getting container's info: docker ps -a
+# Got a docker file? initiate the continer's settings : docker build -t <ImageName>
+# run the main container's process: docker run <ImageName>
+# Stop the main container process: docker stop <ImageName>
+# Terminate the main container process: docker kill <ImageName>
+# Delete the container: docker rm <ImageName>
