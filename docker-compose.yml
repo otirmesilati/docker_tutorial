@@ -8,4 +8,12 @@ services:
       - 5678:5678
     volumes:
       - .:/code
-# To check Images: docker images
+# Prettier stop pushing my code up! >:(
+
+# Checking Docker Version: docker --version
+# Want to check images?  docker images
+# Checking container info: docker ps -a
+# Got a docker file? build the image: docker build -t <ImageName>
+#
+#
+#
